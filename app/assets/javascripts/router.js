@@ -1,12 +1,11 @@
-// App.Router.map(function() {
-//   // autolocation API to get rid of hashes in url
-//   location: 'auto',
-//   // rootURL is Ember knows where to start parsing the url from.
-//   rootURL: '/'
-// });
+
+App.Router.map(function(){
+  // Create lead resource with path set to root
+  this.resource('leads', {path: '/'});
+});
 
 App.Router.reopen({
   location: 'auto',
   rootURL: '/'
-})
+});
 

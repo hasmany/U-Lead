@@ -13,7 +13,3 @@ App.ApplicationStore = DS.Store.extend({});
 // Active Model Adapter enables Ember to communicate with your Rails backend through Active Model Serializers
 App.ApplicationAdapter = DS.ActiveModelAdapter.extend({});
 
-
-
-
-
