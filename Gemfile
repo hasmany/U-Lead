@@ -10,7 +10,7 @@ gem 'pg'
 gem 'rails', '4.0.4'
 gem 'sass-rails'
 gem 'uglifier'
-
+gem 'puma'
 
 group :development, :test do
   # ...

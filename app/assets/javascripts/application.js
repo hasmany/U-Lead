@@ -22,6 +22,8 @@
 //= require ./app
 
 // for more details see: http://emberjs.com/guides/application/
-App = Ember.Application.create();
+// Tells Ember that rootElement is ember-app
+// Ember will render everything inside the #ember-app div
+App = Ember.Application.create({rootElement: '#ember-app'});
 
 //= require_tree .
