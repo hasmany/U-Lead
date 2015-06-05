@@ -4,7 +4,9 @@ App.Router.map(function(){
   this.resource('leads', {path: '/'}, function(){
     // We ant list of leads to still remain present on the page when we show a lead
     // This resource should be nested under the leads resource
-    this.resource('lead',{path: '/leads/:id'});
+    this.resource('lead',{path: '/leads/:id'}, function(){
+      this.route('edit');
+    });
   });
 });
 

@@ -15,3 +15,10 @@ App.Lead = DS.Model.extend({
     return this.get('firstName') + " " + this.get('lastName');
   }.property('firstName','lastName')
 });
+
+// We need to tell app about the different statuses a lead can have
+App.Lead.reopenClass({
+  STATUSES: ['new', 'in progress', 'closed', 'bad']
+});
+// You can access this array through App.Lead.Statuses
+
