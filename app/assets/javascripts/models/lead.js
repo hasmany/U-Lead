@@ -22,3 +22,11 @@ App.Lead.reopenClass({
 });
 // You can access this array through App.Lead.Statuses
 
+// Validation for first and lastName
+// return true if both first and last name is present
+App.Lead.reopenClass({
+  valid: function(fields) {
+      return fields.firstName && fields.lastName;
+  }
+});
+
