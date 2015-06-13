@@ -7,10 +7,12 @@ A CRM is a customer relationship management application. U Lead is unique becaus
 Technology
 ===
 
--Ember.js
--Ruby on Rails
--HTML5
--CSS3
--Indeed API
+- Ember.js
+- jQuery
+- jQuery UI
+- Ruby on Rails
+- HTML5
+- CSS3
+- Indeed API
 
 *Currently a prototype and under an active sprint*
